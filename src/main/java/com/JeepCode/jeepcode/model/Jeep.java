@@ -14,7 +14,13 @@ public class Jeep {
     private int number;
 
 
+
     public Jeep() {
+    }
+
+    public Jeep(String jeep, int number) {
+        this.jeep = jeep;
+        this.number = number;
     }
 
     public int getId() {
