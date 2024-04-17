@@ -26,4 +26,5 @@ public class JeepRoutesController {
     public List<JeepRoutes> getAllRoutes() {
         return jeepService.findAllRoutes();
     }
+
 }
